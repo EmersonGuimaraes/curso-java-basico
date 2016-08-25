@@ -7,7 +7,7 @@ public class LoopFor {
 		//For Normal
 		
 		for(int i=0; i <= 5; i++){
-			System.out.println("O valor de i é "+i);
+			System.out.println("O valor de i é " + i);
 		}
 		
 		for(int i = 4; i >= 0; i--){
