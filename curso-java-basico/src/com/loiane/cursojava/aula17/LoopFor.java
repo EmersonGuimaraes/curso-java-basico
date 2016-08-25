@@ -17,8 +17,22 @@ public class LoopFor {
 		//For com mais de uma variável.
 		
 		for(int i = 0, j = 10; i < j; i++, j--){
-			
+			System.out.println("O valor de i é "+ i +" e o de j é "+ j);
 		}
+		
+		//For sem partes
+		
+		int cont= 0;
+		for(; cont < 10;){
+			System.out.println("O valor de cont é "+ cont);
+			cont+=2;
+		}
+		
+		//Loop sem corpo (Comumente utilizado para somar valores )
+		
+		int soma = 0;
+		for (int  i = 1; i<5; soma += i++ ); 
+		System.out.println("O valor da soma é "+soma);
 	}
 
 }
